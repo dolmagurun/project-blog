@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .on-top{
+                 font-family:cursive;
+                 font-size: 100px;
+                 text-align: center;
+                 color:whitesmoke;
+                 text-shadow: 5px 5px 5px rgb(193, 242, 176);
+                
+            }
+            body{
+                font-family:Arial;
+                background-image: url(blog_images/backpic.jpg);
+                color:rgb(251, 246, 238);
+                font-style: oblique;
+            
+            }
+            .main-container{
+                display:grid;
+                grid-template-columns:1fr 1fr;
+                place-items: center;
+                
+               
+            }
+             .container{
+                width:650px;
+                text-align:center;
+               
+            
+            }
+            .container-2{   
+                display:flex;
+                justify-content:center;
+                align-items:center;
+            }
+            .title{
+                font-size:30px;
+                font-weight:bold;
+                position: relative;
+                text-align:center;
+            }
+            .t1{
+                font-size:50px;
+                font-weight:bold;
+            }
+          
+            img{
+                height:500px;
+                width : 650px;
+                object-fit:cover;
+                border-radius:20px;
+                transition: 2s; 
+            }
+            a{
+                
+                text-decoration:none;
+                color:aliceblue;
+            }
+            .container:hover img{
+                box-shadow: 10px 10px 15px rgba(216, 209, 209, 0.399); 
+                transform:scale(1.05);
+                
+            }
+            p{
+                font-size: 30px;
+            }
+            
+            
+        </style>
+    </head>
+    <body>
+        <div class="on-top"><h2>BLOG</h2></div>
+        
+        <div class="main-container"> 
+            <a href="Pages/technology.html" target="_blank">
+                <div class="container">
+                <img src="blog_images/about_tech.jpg">
+                <p class="title">Technology</p>
+                </div>
+            </a>
+            <a href="Pages/impact_business.html" target="_blank">
+                <div class="container">
+                    <img src="blog_images/positive.jpg"> 
+                    <p class="title">Positive Impact</p>
+                </div>
+            </a>
+            <a href="Pages/negative_impact.html" target="_blank">
+                <div class="container">
+                    <img src="blog_images/negative.jpg">
+                    <p class="title">Negative Impact</p>
+                </div>
+            </a>
+           <a href="Pages/impact_business.html" target="_blank">
+            <div class="container">
+                <img src="blog_images/business.jpg">
+                <p class="title">Impact in Business</p>
+            </div>
+           </a>
+           
+        </div>
+     
+        <p class ="title t1">Conclusion</p>
+        <div class="container-2">
+          
+            <p style=
+            "text-align: center;
+            font-size:30px;
+            width:1000px;"
+        > 
+        Technology encompasses the tools, methods, and processes used to create, produce, and utilize
+        goods and services, drawing from scientific and mathematical principles. It's instrumental in 
+        goods and services, drawing from scientific and mathematical principles. It's instrumental in 
+        convenience enhancing communication, education, agriculture, and access to information, it 
+        also presents challenges such as excessive screen time leading to physical discomforts and 
+        mental health issues. Businesses benefit from integrating Information Technology (IT), 
+        improving efficiency, security, and competitiveness, essential for success in the digital 
+        era.
+        </p>
+        </div>
+       
+    </body>
+</html>
